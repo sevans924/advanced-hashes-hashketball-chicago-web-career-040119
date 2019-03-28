@@ -170,8 +170,7 @@ def player_numbers(team)
   end
 end
 
-puts player_numbers("Brooklyn Nets")
-
+player_numbers
 def player_stats(player)
   game_hash.each do |home_or_away, team_data|
     team_data[:players].each do |player_name, stats|
