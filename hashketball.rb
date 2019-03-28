@@ -171,6 +171,7 @@ def player_numbers(team)
         binding.pry
         stats[:number]
       end
+      end
     end
   end
 end
