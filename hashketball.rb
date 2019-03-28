@@ -163,7 +163,6 @@ end
 def player_numbers(team)
   game_hash.map do |home_or_away, team_data|
       team_data.map do |player_name, stats|
-    
         stats[:number]
       end
     #end
