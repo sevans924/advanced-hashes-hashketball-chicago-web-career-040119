@@ -162,11 +162,11 @@ end
 
 def player_numbers(team)
   
-  game_hash.map do |home_or_away, team_data|
+  game_hash.each do |home_or_away, team_data|
 
     if team_data[:team_name] == team
 
-      team_data[:players].map do |player, stats|
+      team_data[:players].each do |player, stats|
         #stats.map do |attribute, value|
 
         stats[:number]
