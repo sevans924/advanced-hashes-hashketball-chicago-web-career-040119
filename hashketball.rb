@@ -163,8 +163,9 @@ end
 def player_numbers(team)
   #binding.pry
   game_hash.map do |home_or_away, team_data|
-    binding.pry
+    
     if team_data[:team_name] == team
+      binding.pry
       team_data.map do |player_name, stats|
         stats[:number]
       end
