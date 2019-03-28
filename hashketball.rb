@@ -168,7 +168,7 @@ def player_numbers(team)
 
       team_data[:players].map do |player, stats|
         #stats.map do |attribute, value|
-        
+
         stats[:number]
       #end
       end
