@@ -174,6 +174,7 @@ numbers_array = []
       end
     end
   end
+  return numbers_array
 end
 
 #puts player_numbers("Brooklyn Nets")
