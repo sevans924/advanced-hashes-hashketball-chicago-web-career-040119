@@ -163,11 +163,11 @@ end
 def player_numbers(team)
   game_hash.collect do |home_or_away, team_data|
     if team_data[:team_name] == team
-  team_data[:team_name].collect do |player_name, stats|
-    player_name
+      team_data[:team_name].collect do |player_name, stats|
+        player_name
+      end
+    end
   end
-  end
-end
 end
 
 puts player_numbers("Brooklyn Nets")
