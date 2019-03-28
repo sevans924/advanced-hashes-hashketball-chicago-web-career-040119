@@ -169,7 +169,7 @@ numbers_array = []
       team_data[:players].each do |player, stats|
         #stats.map do |attribute, value|
 
-        stats[:number] << number_array
+        numbers_array << stats[:number]
       #end
       end
     end
