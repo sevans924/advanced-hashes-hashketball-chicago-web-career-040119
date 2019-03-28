@@ -169,7 +169,7 @@ def player_numbers(team)
       team_data[:player].map do |player, stats|
         stats.map do [attribute, value]
         binding.pry
-        stats[:number]
+        #stats[:number]
       end
       end
     end
